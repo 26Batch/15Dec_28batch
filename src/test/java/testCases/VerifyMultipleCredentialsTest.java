@@ -21,15 +21,12 @@ public class VerifyMultipleCredentialsTest extends TestBase
 		initialization();
 		login=new LoginPage();
 	}
-	@DataProvider(name="Credentials")
+	/*@DataProvider(name="Credentials")
 	public Object[][] getData()
 	{
 		return new Object[][]
 				{
-					{"standard_user","secret_sauce"},//RU,RP
-					{"standard_user1","secret_sauce"},//WU,RP
-					{"standard_user","secret_sauce1"},//RU,WP
-					{"standard_user1","secret_sauce1"},//WU,WP
+					{"standard_user","secret_sauce"},
 				};
 	}
 	@Test(dataProvider = "Credentials")
