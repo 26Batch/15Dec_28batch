@@ -26,7 +26,7 @@ public class VerifyMultipleCredentialsTest extends TestBase
 	{
 		return new Object[][]
 				{
-					{"standard_user","secret_sauce"},
+					{"standard_user","secret_sauce"}
 				};
 	}
 	@Test(dataProvider = "Credentials")
